@@ -7,8 +7,11 @@ import filecmp
 #testtext = "test.exe"
 #testtextcpy = "test-copy.exe"
 #ACC
-testtext = "banking.txt"
-testtextcpy = "banking-copy.txt"
+
+#test files
+testtext = ""  
+#Test files copies
+testtextcpy = ""
 
 mfile = open(testtext,'rb')
 lines = mfile.read()
